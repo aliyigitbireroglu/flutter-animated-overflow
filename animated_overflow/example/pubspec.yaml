@@ -1,0 +1,24 @@
+name            : example
+description     : Example Project for animated_overflow.
+version         : 1.0.0
+author          : Ali Yigit Bireroglu <aliyigitbireroglu@gmail.com>
+repository      : https://github.com/aliyigitbireroglu/flutter-animated-overflow
+homepage        : https://www.cosmossoftware.coffee
+
+environment     :
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies    :
+  flutter          :
+    sdk: flutter
+  animated_overflow:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter         :
+  uses-material-design: true
+  assets              :
+    - assets/
